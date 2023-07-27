@@ -1,13 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
  
-  body, ul, li {
-    font-family: 'Ubuntu', sans-serif;
-    margin:0;
-    padding: 0;
-    list-style: none;
-  }
-  
-:root {
+  :root {
     --dark: #24292f;
     --dark-50: #2a3138;
     --grey: #63686e;
@@ -15,6 +8,50 @@
     --green: #00c652;
     --white: #ffffff;
     --border-radius: 5px;
+}
+
+  body, ul, li {
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1, h2, h3 {
+    font-weight: lighter;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--grey-50);
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-lg {
+    width: 100%;
+    zoom: 1.20
+}
+
+.btn-block {
+    display: block;
+    text-align: center;
 }
 
 .bg-dark {
@@ -58,7 +95,7 @@
     box-sizing: border-box;
 }
 
-.row div {
+header .row div {
     padding: 0 20px;
     width: 100%;
     box-sizing: border-box;
@@ -68,8 +105,8 @@
     display: flex;
 }
 
-.justfy-end {
-    justify-content: end;
+.justify-end {
+    justify-content: flex-end;
 }
 
 .align-items-center {
@@ -80,6 +117,10 @@
     color: var(--white);
 }
 
+.color-grey-50 {
+    color: var(--grey-50);
+}
+
 li a {
     color: var(--white);
     text-decoration: none;
@@ -88,4 +129,36 @@ li a {
 /*HEADER*/
 #main-menu li{
     margin-left: 15px;
+}
+
+/*HERO*/
+#hero p {
+    width: 450px;
+}
+
+/*FORM*/
+
+.form-box {
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-box input {
+    margin-bottom: 10px;
+}
+
+.form-box small {
+    color: var(--grey-50);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+label {
+    color: var(--grey);
+    margin-bottom: 5px;
+    display: block;
 }

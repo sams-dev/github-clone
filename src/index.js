@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import Header from './components/Header';
+import Hero from './components/Hero';
 import './styles/global.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+    <Hero />
   </React.StrictMode>
 );
 
