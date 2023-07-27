@@ -6,11 +6,12 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import './styles/global.css';
 import Projects from './components/Projects';
+import Banner from './components/Banner';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Projects />
+    <Banner />
   </React.StrictMode>
 );
 

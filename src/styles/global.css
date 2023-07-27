@@ -200,6 +200,13 @@ label {
     background-color: var(--grey-50);
     margin-bottom: 25px;
     margin: 10px;
+}
 
+/*BANNER*/
 
+#banner {
+    background-image: url(../assets/man-macbook.png);
+    background-size: 850px;
+    background-repeat: no-repeat;
+    ;
 }
