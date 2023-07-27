@@ -2,7 +2,7 @@ import Form from "../Form";
 
 const Hero = () => {
   return (
-    <section id="hero" className="container-fluid bg-dark-50">
+    <section id="hero" className="container-fluid bg-dark-50 pd-y">
       <div className="container">
         <div className="row align-items-center">
           <div>

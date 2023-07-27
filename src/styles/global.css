@@ -101,16 +101,32 @@ header .row div {
     box-sizing: border-box;
 }
 
+div {
+    width: 100%;
+}
+
 .display-flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .justify-end {
     justify-content: flex-end;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .color-white {
@@ -119,6 +135,14 @@ header .row div {
 
 .color-grey-50 {
     color: var(--grey-50);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+
+.color-dark {
+    color: var(--dark);
 }
 
 li a {
@@ -132,6 +156,11 @@ li a {
 }
 
 /*HERO*/
+.pd-y {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #hero p {
     width: 450px;
 }
@@ -161,4 +190,16 @@ label {
     color: var(--grey);
     margin-bottom: 5px;
     display: block;
+}
+
+/*PROJECTS*/
+
+#portifolio > div {
+    height: 150px;
+    width: 300px;
+    background-color: var(--grey-50);
+    margin-bottom: 25px;
+    margin: 10px;
+
+
 }

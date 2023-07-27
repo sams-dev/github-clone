@@ -8,7 +8,7 @@ const Header = () => {
             <img src={require("../../assets/logo.png")}/>
           </div>
           <div>
-            <ul id="main-menu" className="display-flex justfy-end">
+            <ul id="main-menu" className="display-flex justify-end">
               <li><a href="#">Features</a></li>
               <li><a href="#">Business</a></li>
               <li><a href="#">Explore</a></li>
