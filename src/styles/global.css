@@ -1,0 +1,18 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ 
+  body, ul, li {
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding: 0;
+    list-style: none;
+  }
+  
+:root {
+    --dark: #24292f;
+    --dark-50: #2a3138;
+    --grey: #63686e;
+    --grey-50: #b5b8ba;
+    --green: #00c652;
+    --white: #ffffff;
+    --border-radius: 5px;
+}
