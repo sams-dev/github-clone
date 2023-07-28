@@ -7,6 +7,8 @@ const Portifolio = () => {
       <div></div>
       <div></div>
       <div></div>
+      <div></div>
+      <div></div>
     </div>
   );
 };

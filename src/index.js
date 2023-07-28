@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
-import Header from './components/Header';
-import Hero from './components/Hero';
 import './styles/global.css';
-import Projects from './components/Projects';
-import Banner from './components/Banner';
+import SectionBottom from './components/SectionBottom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Banner />
+    < SectionBottom/>
   </React.StrictMode>
 );
 
