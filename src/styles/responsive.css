@@ -8,18 +8,34 @@
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {  
-    body { background-color: green;} }
+    body { background-color: green;} 
 
-/* Large devices (desktops, 992px and up)*/
+   
+}
+
+/* Large devices (desktops, 992px and up) v*/
 @media (min-width: 992px) and (max-width: 1199.98px){  
-    body { background-color: yellow;} }
+    body { background-color: yellow;} 
 
-/* X-Large devices (large desktops, 1200px and up)*/
+    #banner {
+        background-position-x: -255px; 
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) v*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    body { background-color: orange;}
+    body { background-color: orange;} 
+    
+    #banner {
+        background-position-x: -155px; 
+    }
  }
 
-/* XX-Large devices (larger desktops, 1400px and up)*/
+/* XX-Large devices (larger desktops, 1400px and up) v*/
 @media (min-width: 1400px) { 
-    body { background-color: red;}
+    body { background-color: red;} 
+
+    #banner {
+        background-position-x: -55px; 
+    }
 }  

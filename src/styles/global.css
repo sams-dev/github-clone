@@ -210,7 +210,11 @@ label {
 
 #banner {
     background-image: url(../assets/man-macbook.png);
-    background-size: 850px;
+    background-size: 770px;
+    background-position-y: 0;
+    background-position-x: 0;
+    padding-bottom: 0;
+    padding-left: 0;
     background-repeat: no-repeat;
 }
 
