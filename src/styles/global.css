@@ -159,6 +159,10 @@ li a {
     margin-left: 15px;
 }
 
+.main-menu-mobile {
+    display: none;
+}
+
 /*HERO*/
 .pd-y {
     padding-top: 30px;
