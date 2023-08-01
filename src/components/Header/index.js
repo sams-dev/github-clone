@@ -1,3 +1,4 @@
+import MenuMobile from "../MenuMobile";
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
             <img src={require("../../assets/logo.png")}/>
           </div>
           <div>
+          <MenuMobile/>
             <ul id="main-menu" className="display-flex justify-end">
               <li><a href="#">Features</a></li>
               <li><a href="#">Business</a></li>

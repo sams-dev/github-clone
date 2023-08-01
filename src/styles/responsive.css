@@ -1,30 +1,208 @@
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     body { background-color: blueviolet;}
+
+    #main-menu {
+        display: none;
+    }
+
+    #main-menu-mobile {
+        display: flex;
+    }
+
+    #hero .row {
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #hero .row h1, p {
+        text-align: center;
+    }
+
+    #buttom-mobile {
+        margin-top: 20px;
+        display: block;
+        
+    }
+
+    .form-box {
+        display: none;
+    }
+
+    #portifolio > div {
+        height: 341px;
+        max-width: 500px;
+        flex: 500px;
+    }
+
+    #banner {
+        background-image: none;
+    }
+
+    #banner h1 {
+        margin: 0;
+    }
+
+    #banner .row > div:first-child {
+        display: none;
+    }
+
+    #section-bottom .Container > .row {
+        flex-wrap: wrap;
+    }
+
+    #section-bottom .Container > .row {
+        flex-wrap: wrap;
+    }
+
+    #section-bottom .Container > .row:nth-child(odd) > div.text-down:first-child {
+        order: 2;
+    }
+
+    .box-img > div, .box-img-e > div  {
+        display: flex;
+        height: 333.40px;
+        flex: 1 1 500px;
+    }
+
+    .Container > .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
  }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {  
-    body { background-color: blue;} }
+    body { background-color: blue;} 
+
+    #main-menu {
+        display: none;
+    }
+
+    #main-menu-mobile {
+        display: flex;
+    }
+
+    #hero .row {
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #hero .row h1, p {
+        text-align: center;
+    }
+
+    #buttom-mobile { 
+        margin-top: 20px;
+        display: block;
+        
+    }
+
+    .form-box {
+        display: none;
+    }
+
+    #portifolio > div {
+        max-width: 520px;
+        min-width: 500px;
+        height: 354.55px;
+    }
+
+    #banner {
+        background-image: none;
+    }
+
+    #banner h1 {
+        margin: 0;
+    }
+
+    #banner .row > div:first-child {
+        display: none;
+    }
+
+    #section-bottom .Container > .row {
+        flex-wrap: wrap;
+    }
+
+    #section-bottom .Container > .row:nth-child(odd) > div.text-down:first-child {
+        order: 2;
+    }
+
+    .box-img, .box-img-e  {
+        height: 346.67px;
+        flex: 0 0 650px;
+        max-width: 520px;
+        min-width: 500px;
+    }
+
+    .Container > .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {  
-    body { background-color: green;} 
+    /*body { background-color: green;}*/ 
 
-   
+    #main-menu {
+        display: none;
+    }
+
+    #main-menu-mobile {
+        display: flex;
+    }
+
+    #hero .row {
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+
+    #hero .row .justify-end {
+        justify-content: center;
+    }
+
+    .form-box {
+        margin-top: 20px;
+        min-width: 500px;
+        width: 700px;
+    }
+
+    #portifolio > div {
+        height: 238.64px;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    #banner {
+        background-position-x: center;
+        background-position-y: 250px;
+        padding-top: 0;
+        padding-bottom: 330px; 
+    }
+
+    #banner .row > div:first-child {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) v*/
 @media (min-width: 992px) and (max-width: 1199.98px){  
-    body { background-color: yellow;} 
+    /*body { background-color: yellow;}*/ 
 
     #banner {
-        background-position-x: -255px; 
+        background-position-x: -260px; 
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) v*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    body { background-color: orange;} 
+    /*body { background-color: orange;}*/ 
     
     #banner {
         background-position-x: -155px; 
@@ -33,9 +211,9 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) v*/
 @media (min-width: 1400px) { 
-    body { background-color: red;} 
+    /*body { background-color: red;}*/ 
 
     #banner {
-        background-position-x: -55px; 
+        background-position-x: -20px; 
     }
 }  
