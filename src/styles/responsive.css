@@ -1,6 +1,6 @@
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    body { background-color: blueviolet;}
+    /*body { background-color: blueviolet;}*/
 
     #main-menu {
         display: none;
@@ -48,25 +48,25 @@
         display: none;
     }
 
-    #section-bottom .Container > .row {
+    #section-bottom .container > .row {
         flex-wrap: wrap;
     }
 
-    #section-bottom .Container > .row {
+    #section-bottom .container > .row {
         flex-wrap: wrap;
     }
 
-    #section-bottom .Container > .row:nth-child(odd) > div.text-down:first-child {
+    #section-bottom .container > .row:nth-child(odd) > div.text-down:first-child {
         order: 2;
     }
 
-    .box-img > div, .box-img-e > div  {
+    .box-img , .box-img-e  {
         display: flex;
         height: 333.40px;
-        flex: 1 1 500px;
+        flex: 0 1 500px;
     }
 
-    .Container > .row {
+    .container > .row {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -74,7 +74,7 @@
  }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {  
-    body { background-color: blue;} 
+    /*body { background-color: blue;}*/ 
 
     #main-menu {
         display: none;
@@ -122,11 +122,11 @@
         display: none;
     }
 
-    #section-bottom .Container > .row {
+    #section-bottom .container > .row {
         flex-wrap: wrap;
     }
 
-    #section-bottom .Container > .row:nth-child(odd) > div.text-down:first-child {
+    #section-bottom .container > .row:nth-child(odd) > div.text-down:first-child {
         order: 2;
     }
 
@@ -137,7 +137,7 @@
         min-width: 500px;
     }
 
-    .Container > .row {
+    .container > .row {
         display: flex;
         align-items: center;
         justify-content: center;

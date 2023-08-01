@@ -1,7 +1,7 @@
 const SectionBottom = () => {
   return (
-    <section id="section-bottom" className="container pd-y">
-      <div className="Container">
+    <section id="section-bottom" className="container-fluid pd-y">
+      <div className="container">
         <div className="row align-items-center">
           <div className="text-down text-align-right">
             <h1 className="color-dark">Seus projetos em um só lugar.</h1>
@@ -11,7 +11,7 @@ const SectionBottom = () => {
         </div>
       </div>
 
-      <div className="Container">
+      <div className="container">
         <div className="row align-items-center">
           <div className="box-img-e"></div>
           <div>
@@ -21,7 +21,7 @@ const SectionBottom = () => {
         </div>
       </div>
 
-      <div className="Container">
+      <div className="container">
         <div className="row align-items-center">
           <div className="text-down text-align-right">
             <h1 className="color-dark">Seus projetos em um só lugar.</h1>
