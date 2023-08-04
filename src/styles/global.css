@@ -1,7 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
   
-  @import url('https://fonts.cdnfonts.com/css/g-gerhana-matahari');
-
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
 
   :root {
     --dark: #24292f;
@@ -244,13 +243,13 @@ label {
 }
 
 #footer h1 {
-    font-family: 'g Gerhana Matahari', sans-serif;
-    font-weight: 700;
-    font-size: 20px;    
-    color: #E0EDFE;                           
+    font-family: 'Open Sans', sans-serif;    font-weight: 700;
+    font-size: 21px;    
+    color: #C7C8CA;                           
 }
 
 #sd-img {
-    width: 40px;
-    margin-left: 10px;
+    width: 45px;
+    margin-left: 5px;
+
 }
