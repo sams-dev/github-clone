@@ -1,4 +1,5 @@
 import MenuMobile from "../MenuMobile";
+import { Image } from "../styledComponent";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <div className="container">
         <div className="row align-items-center">
           <div>
-            <img src={require("../../assets/logo.png")}/>
+            <Image src={require("../../assets/logo.png")}/>
           </div>
           <div>
           <MenuMobile/>

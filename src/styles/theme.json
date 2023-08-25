@@ -1,0 +1,15 @@
+{
+    "colors": {        
+      "dark": "#24292f",
+      "dark50": "#2a3138",
+      "grey": "#63686e",
+      "grey50": "#b5b8ba",
+      "green": "#00c652",
+      "white": "#ffffff"
+},
+    "font": {
+        "sizes": [],
+        "weigth": [],
+        "family": ""
+    }
+}
