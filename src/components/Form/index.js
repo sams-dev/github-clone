@@ -1,3 +1,5 @@
+import {Button} from '../styledComponent'
+
 const Form = () => {
   return (
     <div className="display-flex justify-end">
@@ -8,7 +10,7 @@ const Form = () => {
         <input type="text" className="form-control" placeholder="Nome"></input>
         <label>Telefone</label>
         <input type="text" className="form-control" placeholder="Nome"></input>
-        <button className="btn btn-lg btm-block bg-green color-white">Comece agora mesmo.</button>
+        <Button size="lg" type="green" color="white" block>Comece agora mesmo.</Button>
         <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's of the printing and typesetting industry. </small>
       </div>
     </div>

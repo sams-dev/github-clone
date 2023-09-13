@@ -1,6 +1,8 @@
+import { Button } from "../styledComponent";
+
 const ButtomMobile = () => {
   return (
-    <button id="buttom-mobile" className="btn btn-lg btm-block bg-green color-white">Comece agora mesmo.</button>
+    <Button id="buttom-mobile" size="lg" type="green" color="white" block>Comece agora mesmo.</Button>
   );
 };
 

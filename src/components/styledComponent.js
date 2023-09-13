@@ -11,3 +11,7 @@ export const Title = styled.h1`
 export const Description = styled.p`
     color: ${({color}) => theme.colors[color || 'grey']};
 `;
+
+export const Button = styled.button.attrs(({size, type, block, color}) =>({
+    className: `btn btn-${size} bg-${type} ${block ? "btn-block" : ""} color-${color}`,
+}))``;
